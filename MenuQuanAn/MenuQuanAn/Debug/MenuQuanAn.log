@@ -1,0 +1,20 @@
+﻿  menuQuanAn.cpp
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(113,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(138,26): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(145,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(160,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(168,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(176,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(184,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(276,32): warning C4305: '=': truncation from 'double' to 'float'
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(277,37): warning C4305: '=': truncation from 'double' to 'float'
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(278,38): warning C4305: '=': truncation from 'double' to 'float'
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(279,28): warning C4305: '=': truncation from 'double' to 'float'
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(301,73): warning C4305: 'initializing': truncation from 'double' to 'float'
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(320,21): warning C4305: '*=': truncation from 'double' to 'float'
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(324,21): warning C4305: '*=': truncation from 'double' to 'float'
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(330,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(354,22): warning C4305: '*=': truncation from 'double' to 'float'
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(361,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\MenuQuanAn\MenuQuanAn\menuQuanAn.cpp(368,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  MenuQuanAn.vcxproj -> F:\MenuQuanAn\Debug\MenuQuanAn.exe
