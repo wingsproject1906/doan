@@ -267,11 +267,13 @@ void english()
 			break;
 		}
 
-		if (x < 0 || x > 10) {
-			std::cout << "Invalid dish! Please choose again." << endl;
-			continue;
-		}
+		while (x>10 ||x<0)
+		{
+			std::cout << "Don't exist! Please choice again!!!" << endl;
+			std::cout << "Dish number: ";
+			std::cin >> x;
 
+		} 
 		// Gán giá tiền theo món
 		if (x >= 1 && x <= 5) z = 1.6;
 		else if (x == 6 || x == 9) z = 0.4;
@@ -287,7 +289,6 @@ void english()
 
 		cout << "Price: " << itemTotal << " USD" << endl;
 	}
-
 	system("cls");
 	std::cout << "                       ORDER COMPLETED! PLEASE WAIT TO BE SERVED" << endl;
 	std::cout << "                               THIS IS YOUR INVOICE" << endl;
