@@ -316,11 +316,11 @@ void english()
 	float finalAmount = grandTotal;
 
 	if (grandTotal >= 8 && grandTotal < 20) {
-		std::cout << "Your bill is over 200K! You get a 10% discount" << endl;
+		std::cout << "Your bill is over 8 USD! You get a 10% discount" << endl;
 		finalAmount *= 0.9;
 	}
 	else if (grandTotal >= 20) {
-		std::cout << "Your bill is over 500K! You get a 10% discount and a chance to win a random gift!" << endl;
+		std::cout << "Your bill is over 20USD! You get a 10% discount and a chance to win a random gift!" << endl;
 		finalAmount *= 0.9;
 
 		string gifts[10] = {
