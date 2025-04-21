@@ -1,4 +1,4 @@
-﻿//chu thich duoc ghi o cuoi dong code
+
 #include <iostream>
 #include<string>
 #include<cstdlib>
