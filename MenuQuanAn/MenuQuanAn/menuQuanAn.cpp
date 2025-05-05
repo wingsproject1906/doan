@@ -79,7 +79,7 @@ void vietnamese()
 	std::cout << "  ------------------------------------------------------------------" << endl;
 	std::cout << "   " << endl;
 	std::cout << "  ------------------------------------------------------------------" << endl;
-	string tenMon[10] = { "Com tam", "Com ga", "Com chien duong chau", "Com xao bo", "Com suon xao chua ngot","Nuoc ngot", "Tra da", "Tra chanh", "Hong tra", "Nuoc suoi" };//
+	string tenMon[10] = { "Com tam", "Com ga", "Com chien duong chau", "Com xao bo", "Com suon xao chua ngot", "Nuoc ngot", "Tra da", "Tra chanh", "Hong tra", "Nuoc suoi" };//
 
 	int gia[10] = { 40000, 40000, 40000, 40000, 40000, 10000, 5000, 7000, 10000, 5000 };//
 	int tongcong = 0;
@@ -109,7 +109,7 @@ void vietnamese()
 		std::cout << "hoa don cua ban hien tai dat gia tri tren 500k! ban duoc giam gia 10% tren tong hoa don va duoc chon 1 phan qua ngau nhien!" << endl;
 		std::cout << "so tien ban can thanh toan la: " << tongcong * 0.9 << " vnd" << endl;
 		//tạo vòng quay (bien thoi gian [srand (time(0))])-(range random=int [biến]=rand()%[khoảng rand]
-		string qua[10] = { "op dien thoai","tai nghe","non bao hiem","non luoi trai","the cao 20k","kinh mat","khan tay","ao mua","moc khoa","sticker" };
+		string qua[10] = { "op dien thoai", "tai nghe", "non bao hiem", "non luoi trai", "the cao 20k", "kinh mat", "khan tay", "ao mua", "moc khoa", "sticker" };
 		srand(time(0));
 		int vitri = rand() % 10;
 		//van hanh
@@ -240,7 +240,6 @@ void vietnamese()
 	}
 	std::cout << "-------------------------------------------------------------------------" << endl;
 	std::cout << "Cam on vi danh gia cua ban!!!" << endl;
-	system("cls");
 }
 void english()
 {
@@ -267,13 +266,13 @@ void english()
 			break;
 		}
 
-		while (x>10 ||x<0)
+		while (x>10 || x<0)
 		{
 			std::cout << "Don't exist! Please choice again!!!" << endl;
 			std::cout << "Dish number: ";
 			std::cin >> x;
 
-		} 
+		}
 		// Gán giá tiền theo món
 		if (x >= 1 && x <= 5) z = 1.6;
 		else if (x == 6 || x == 9) z = 0.4;
